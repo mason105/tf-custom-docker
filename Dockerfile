@@ -21,7 +21,7 @@ add    ./scripts/start /start
 
 # Download and install everything from the repos.
 run    apt-get -q -y update; apt-get -q -y upgrade && \
-       apt-get -q -y install sudo openssh-server vim net-tools&& \
+       apt-get -q -y install sudo openssh-server vim net-tools python-tk && \
        mkdir /var/run/sshd
 
 
